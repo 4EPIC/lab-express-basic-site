@@ -1,12 +1,21 @@
 
 
 body{
+    padding: 50px;
     margin:0px;
     font-family: "Roboto", sans-serif;
+    text-align: justify;
 }
 
 
 /* NAVIGATION WRAPPER STYLES*/
+#WelcomeHome{
+    justify-content: center;
+}
+
+#WelcomeHome .nav{
+    font-size: 30px;
+}
 
 .nav-wrapper{
     display:flex;
@@ -55,3 +64,11 @@ body{
     color:black !important;
 }
 
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
