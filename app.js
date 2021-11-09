@@ -14,11 +14,11 @@ app.all("/about", (request, response) => {
 })
 
 app.all("/works", (request, response) => {
-    response.sendFile(path.join(__dirname, "views", "works", "about.html"))
+    response.sendFile(path.join(__dirname, "views", "works", "works.html"))
 })
 
 app.all("/gallery", (request, response) => {
-    response.sendFile(path.join(__dirname, "views", "gallery", "about.html"))
+    response.sendFile(path.join(__dirname, "views", "gallery", "gallery.html"))
 })
 
 app.listen(4000, ()=>{
